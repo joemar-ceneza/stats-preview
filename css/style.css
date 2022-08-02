@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(233deg, 47%, 7%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9375rem;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.text-color {
+  color: hsl(277deg, 64%, 61%);
+}
+
+#stats-preview {
+  background-color: hsl(244deg, 38%, 16%);
+  width: 1000px;
+  position: absolute;
+  border-radius: 10px 10px 10px 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#stats-preview .stats-container {
+  display: flex;
+}
+#stats-preview .stats-container .stats-description {
+  width: 50%;
+  padding: 4em 4em 2em 4em;
+}
+#stats-preview .stats-container .stats-description h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 1.5em;
+}
+#stats-preview .stats-container .stats-description p {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: hsla(0deg, 0%, 100%, 0.6);
+  margin-bottom: 4em;
+}
+#stats-preview .stats-container .stats-description .ratings {
+  display: flex;
+  justify-content: space-between;
+}
+#stats-preview .stats-container .stats-description .ratings .companies h2,
+#stats-preview .stats-container .stats-description .ratings .templates h2,
+#stats-preview .stats-container .stats-description .ratings .queries h2 {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+#stats-preview .stats-container .stats-description .ratings .companies p,
+#stats-preview .stats-container .stats-description .ratings .templates p,
+#stats-preview .stats-container .stats-description .ratings .queries p {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+#stats-preview .stats-container .stats-images {
+  width: 50%;
+}
+#stats-preview .stats-container .stats-images img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0 10px 10px 0;
+  filter: grayscale(100%) brightness(70%) sepia(50%) hue-rotate(-100deg) saturate(500%) contrast(1);
+}
+
+@media (max-width: 1055px) {
+  #stats-preview {
+    width: 700px;
+  }
+  #stats-preview .stats-container .stats-description {
+    padding: 2em 3em 1em 3em;
+  }
+  #stats-preview .stats-container .stats-description h1 {
+    font-size: 1.3rem;
+  }
+  #stats-preview .stats-container .stats-description p {
+    font-size: 0.7rem;
+  }
+  #stats-preview .stats-container .stats-description .ratings .companies h2,
+#stats-preview .stats-container .stats-description .ratings .templates h2,
+#stats-preview .stats-container .stats-description .ratings .queries h2 {
+    font-size: 1rem;
+  }
+  #stats-preview .stats-container .stats-description .ratings .companies p,
+#stats-preview .stats-container .stats-description .ratings .templates p,
+#stats-preview .stats-container .stats-description .ratings .queries p {
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 750px) {
+  #stats-preview {
+    width: 300px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  #stats-preview .stats-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #stats-preview .stats-container .stats-description {
+    width: 100%;
+    padding: 1em 3em 1em 3em;
+  }
+  #stats-preview .stats-container .stats-description h1 {
+    font-size: 1.3rem;
+    margin-bottom: 1.2em;
+  }
+  #stats-preview .stats-container .stats-description p {
+    font-size: 0.7rem;
+    margin-bottom: 3em;
+  }
+  #stats-preview .stats-container .stats-description .ratings .companies h2,
+#stats-preview .stats-container .stats-description .ratings .templates h2,
+#stats-preview .stats-container .stats-description .ratings .queries h2 {
+    font-size: 1rem;
+  }
+  #stats-preview .stats-container .stats-description .ratings .companies p,
+#stats-preview .stats-container .stats-description .ratings .templates p,
+#stats-preview .stats-container .stats-description .ratings .queries p {
+    font-size: 0.5rem;
+  }
+  #stats-preview .stats-container .stats-images {
+    width: 100%;
+  }
+  #stats-preview .stats-container .stats-images img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+}
+@media (max-width: 350px) {
+  #stats-preview {
+    width: 200px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  #stats-preview .stats-container .stats-description {
+    padding: 1em;
+  }
+  #stats-preview .stats-container .stats-description h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1em;
+  }
+  #stats-preview .stats-container .stats-description p {
+    font-size: 0.6rem;
+    margin-bottom: 3em;
+  }
+  #stats-preview .stats-container .stats-description .ratings .companies h2,
+#stats-preview .stats-container .stats-description .ratings .templates h2,
+#stats-preview .stats-container .stats-description .ratings .queries h2 {
+    font-size: 1rem;
+  }
+  #stats-preview .stats-container .stats-description .ratings .companies p,
+#stats-preview .stats-container .stats-description .ratings .templates p,
+#stats-preview .stats-container .stats-description .ratings .queries p {
+    font-size: 0.5rem;
+  }
+  #stats-preview .stats-container .stats-images {
+    width: 100%;
+  }
+  #stats-preview .stats-container .stats-images img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+}
+@media (max-width: 280px) {
+  #stats-preview {
+    width: 200px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  #stats-preview .stats-container .stats-description {
+    padding: 1em;
+  }
+  #stats-preview .stats-container .stats-description h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1em;
+  }
+  #stats-preview .stats-container .stats-description p {
+    font-size: 0.6rem;
+    margin-bottom: 3em;
+  }
+  #stats-preview .stats-container .stats-description .ratings .companies h2,
+#stats-preview .stats-container .stats-description .ratings .templates h2,
+#stats-preview .stats-container .stats-description .ratings .queries h2 {
+    font-size: 1rem;
+  }
+  #stats-preview .stats-container .stats-description .ratings .companies p,
+#stats-preview .stats-container .stats-description .ratings .templates p,
+#stats-preview .stats-container .stats-description .ratings .queries p {
+    font-size: 0.5rem;
+  }
+  #stats-preview .stats-container .stats-images {
+    width: 100%;
+  }
+  #stats-preview .stats-container .stats-images img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+}/*# sourceMappingURL=style.css.map */
