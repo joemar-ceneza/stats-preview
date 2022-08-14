@@ -37,12 +37,13 @@ body {
 #stats-preview .stats-container .stats-description .text-color {
   color: hsl(277deg, 64%, 61%);
 }
-#stats-preview .stats-container .stats-description p {
+#stats-preview .stats-container .stats-description .description {
   font-family: "Inter", sans-serif;
   font-size: 0.9rem;
   font-weight: normal;
+  line-height: 25px;
   color: hsla(0deg, 0%, 100%, 0.6);
-  margin: 0 4em 4em 0;
+  margin: 0 3em 3em 0;
 }
 #stats-preview .stats-container .stats-description .ratings {
   display: flex;
@@ -62,6 +63,7 @@ body {
   text-transform: uppercase;
   font-size: 0.6rem;
   letter-spacing: 1px;
+  color: hsla(0deg, 0%, 100%, 0.6);
 }
 #stats-preview .stats-container .stats-images {
   width: 50%;
@@ -84,9 +86,12 @@ body {
   }
   #stats-preview .stats-container .stats-description h1 {
     font-size: 1.3rem;
+    margin-bottom: 1.3em;
   }
-  #stats-preview .stats-container .stats-description p {
+  #stats-preview .stats-container .stats-description .description {
     font-size: 0.7rem;
+    line-height: 20px;
+    margin-bottom: 2em;
   }
   #stats-preview .stats-container .stats-description .ratings .companies h2,
 #stats-preview .stats-container .stats-description .ratings .templates h2,
@@ -110,13 +115,13 @@ body {
   }
   #stats-preview .stats-container .stats-description {
     width: 100%;
-    padding: 1em 3em 1em 3em;
+    padding: 2em;
   }
   #stats-preview .stats-container .stats-description h1 {
     font-size: 1.3rem;
     margin-bottom: 1.2em;
   }
-  #stats-preview .stats-container .stats-description p {
+  #stats-preview .stats-container .stats-description .description {
     font-size: 0.7rem;
     margin: 0 0 3em 0;
   }
@@ -147,13 +152,14 @@ body {
     padding: 1em;
   }
   #stats-preview .stats-container .stats-description h1 {
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 700;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
   }
-  #stats-preview .stats-container .stats-description p {
+  #stats-preview .stats-container .stats-description .description {
     font-size: 0.6rem;
-    margin-bottom: 3em;
+    margin-bottom: 2.5em;
+    line-height: 18px;
   }
   #stats-preview .stats-container .stats-description .ratings .companies h2,
 #stats-preview .stats-container .stats-description .ratings .templates h2,
@@ -186,7 +192,7 @@ body {
     font-weight: 700;
     margin-bottom: 2em;
   }
-  #stats-preview .stats-container .stats-description p {
+  #stats-preview .stats-container .stats-description .description {
     font-size: 0.6rem;
     margin-bottom: 3em;
   }
