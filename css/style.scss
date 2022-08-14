@@ -2,6 +2,8 @@
 
 $font-inter: 'Inter', sans-serif;
 $font-lexend: 'Lexend Deca', sans-serif;
+$fw-700: 700;
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -29,7 +31,7 @@ body{
             padding: 4em 4em 2em 4em;
             h1{
                 font-size: 1.8rem;
-                font-weight: 700;
+                font-weight: $fw-700;
                 letter-spacing: 1px;
                 margin-bottom: 1.5em;
             }
@@ -39,7 +41,7 @@ body{
             .description{
                 font-family: $font-inter;
                 font-size: 0.9rem;
-                font-weight: normal;
+                font-weight: 400;
                 line-height: 25px;
                 color: hsla(0, 0%, 100%, 0.6);
                 margin: 0 3.3em 3em 0;
@@ -52,7 +54,7 @@ body{
                 .queries{
                     h2{
                         font-size: 1.1rem;
-                        font-weight: 700;
+                        font-weight: $fw-700;
                         letter-spacing: 2px;
                         margin-bottom: 0.5em;
                     }
@@ -144,7 +146,7 @@ body{
                 padding: 1em;
                 h1{
                     font-size: 1rem;
-                    font-weight: 700;
+                    font-weight: $fw-700;
                     margin-bottom: 1.5em;
                 }
                 .description{

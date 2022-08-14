@@ -41,7 +41,7 @@ body {
 #stats-preview .stats-container .stats-description .description {
   font-family: "Inter", sans-serif;
   font-size: 0.9rem;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 25px;
   color: hsla(0deg, 0%, 100%, 0.6);
   margin: 0 3.3em 3em 0;
