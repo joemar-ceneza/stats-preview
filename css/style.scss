@@ -1,5 +1,7 @@
-// font-family: 'Inter', sans-serif;
-// font-family: 'Lexend Deca', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+$font-inter: 'Inter', sans-serif;
+$font-lexend: 'Lexend Deca', sans-serif;
 *{
     box-sizing: border-box;
     margin: 0;
@@ -7,12 +9,9 @@
 }
 body{
     background-color: hsl(233, 47%, 7%);
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: $font-lexend;
     font-size: 0.9375rem;
     color: hsl(0, 0%, 100%);
-}
-.text-color{
-    color: hsl(277, 64%, 61%);
 }
 #stats-preview{
     background-color: hsl(244, 38%, 16%);
@@ -33,12 +32,15 @@ body{
                 letter-spacing: 1px;
                 margin-bottom: 1.5em;
             }
+            .text-color{
+                color: hsl(277, 64%, 61%);
+            }
             p{
-                font-family: 'Inter', sans-serif;
+                font-family: $font-inter;
                 font-size: 0.9rem;
                 font-weight: normal;
                 color: hsla(0, 0%, 100%, 0.6);
-                margin-bottom: 4em;
+                margin: 0 4em 4em 0;
             }
             .ratings{
                 display: flex;
@@ -47,14 +49,15 @@ body{
                 .templates,
                 .queries{
                     h2{
-                        font-size: 1.4rem;
-                        letter-spacing: 1px;
+                        font-size: 1.1rem;
+                        font-weight: 700;
+                        letter-spacing: 2px;
+                        margin-bottom: 0.5em;
                     }
                     p{
                         text-transform: uppercase;
                         font-size: 0.6rem;
                         letter-spacing: 1px;
-                        margin-bottom: 0;
                     }
                 }
             }
@@ -62,6 +65,7 @@ body{
         .stats-images{
             width: 50%;
             img{
+                vertical-align: middle;
                 width: 100%;
                 object-fit: cover;
                 border-radius: 0 10px 10px 0;
@@ -114,7 +118,7 @@ body{
                 }
                 p{
                     font-size: 0.7rem;
-                    margin-bottom: 3em;
+                    margin: 0 0 3em 0;
                 }
                 .ratings{
                     .companies,
@@ -147,9 +151,9 @@ body{
             .stats-description{
                 padding: 1em;
                 h1{
-                    font-size: 1.2rem;
+                    font-size: 0.9rem;
                     font-weight: 700;
-                    margin-bottom: 1em;
+                    margin-bottom: 2em;
                 }
                 p{
                     font-size: 0.6rem;
@@ -160,10 +164,10 @@ body{
                     .templates,
                     .queries{
                         h2{
-                            font-size: 1rem;
+                            font-size: 0.65rem;
                         }
                         p{
-                            font-size: 0.5rem;
+                            font-size: 0.4rem;
                         }
                     }
                 }
@@ -186,9 +190,9 @@ body{
             .stats-description{
                 padding: 1em;
                 h1{
-                    font-size: 1.2rem;
+                    font-size: 0.9rem;
                     font-weight: 700;
-                    margin-bottom: 1em;
+                    margin-bottom: 2em;
                 }
                 p{
                     font-size: 0.6rem;
@@ -199,10 +203,10 @@ body{
                     .templates,
                     .queries{
                         h2{
-                            font-size: 1rem;
+                            font-size: 0.65rem;
                         }
                         p{
-                            font-size: 0.5rem;
+                            font-size: 0.4rem;
                         }
                     }
                 }
