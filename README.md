@@ -10,7 +10,9 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-- [Front-end Style Guide](#Front-end-Style-Guide)
+- [Front End Style](#front-end-style-guide)
+- [Colors](#colors)
+- [Typography](#typography)
 
 ## Overview
 
