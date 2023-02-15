@@ -11,6 +11,10 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Front End Style](#front-end-style-guide)
+<<<<<<< HEAD
+=======
+- [Colors](#colors)
+>>>>>>> 32316202400de573c5b84229e4e4a6209641f7fe
 - [Typography](#typography)
 
 ## Overview
@@ -49,6 +53,11 @@ The designs were created to the following widths:
 - Mobile: 375px
 - Desktop: 1440px
 
+<<<<<<< HEAD
+=======
+## Colors
+
+>>>>>>> 32316202400de573c5b84229e4e4a6209641f7fe
 ### Primary
 
 - Very dark blue (main background): hsl(233, 47%, 7%)
@@ -73,4 +82,8 @@ The designs were created to the following widths:
 - Weights: 400, 700
 
 - Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+<<<<<<< HEAD
 - Weights: 400
+=======
+- Weights: 400
+>>>>>>> 32316202400de573c5b84229e4e4a6209641f7fe
